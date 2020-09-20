@@ -20,6 +20,7 @@ namespace WebAPICountryGwpAssignment
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("https://*:9082", "http://*:9091");
                     webBuilder.UseStartup<Startup>();
                 });
     }
