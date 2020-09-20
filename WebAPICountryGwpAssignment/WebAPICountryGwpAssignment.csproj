@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>5198595c-4e98-486c-a1ce-9b2923322422</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,4 +12,11 @@
   </ItemGroup>
 
 
+<ItemGroup>
+    <Content Include="Data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    
+  </ItemGroup>
+  
 </Project>
